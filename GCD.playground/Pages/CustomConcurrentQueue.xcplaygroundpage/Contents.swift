@@ -2,7 +2,7 @@
 
 import Foundation
 
-// Custom Serial Queue in swift With GCD
+// Custom concurrent queue in swift with GCD
     let customQueueConcurrent = DispatchQueue(label: "customQueue",attributes:.concurrent)
     customQueueConcurrent.async {//Task 1
         for i in 1...5{

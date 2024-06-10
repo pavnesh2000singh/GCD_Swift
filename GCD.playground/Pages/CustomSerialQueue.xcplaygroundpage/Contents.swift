@@ -2,7 +2,7 @@
 
 import Foundation
 
-// Custom Serial Queue in swift With GCD
+// Custom serial queue in swift with GCD
     let customQueue = DispatchQueue(label: "customQueue")
     customQueue.sync {//Task 1
         for i in 1...5{

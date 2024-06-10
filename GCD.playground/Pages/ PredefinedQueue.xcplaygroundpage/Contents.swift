@@ -2,7 +2,7 @@ import Foundation
 
 // Example of gcd
 
-//Mark:- Predefined Queue in swift With GCD
+//Mark:- Predefined queue in swift with GCD
 
     // Global Queue
         DispatchQueue.global().sync {//for background task
